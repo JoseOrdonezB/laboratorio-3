@@ -1,7 +1,7 @@
 from models.node import Node
 from structures.lifo import LIFO
 
-def dfs(graph, initial_state, goal_state):
+def depth_first_search(graph, initial_state, goal_state):
     root = Node(state=initial_state)
 
     frontier = LIFO()

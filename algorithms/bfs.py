@@ -1,7 +1,7 @@
 from models.node import Node
 from structures.fifo import FIFO
 
-def bfs(graph, initial_state, goal_state):
+def breadth_first_search(graph, initial_state, goal_state):
     root = Node(state=initial_state)
 
     frontier = FIFO()
